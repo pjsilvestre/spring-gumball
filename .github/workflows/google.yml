@@ -20,7 +20,7 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: cmpe172
   GKE_ZONE: us-central1-c
-  DEPLOYMENT_NAME: spring-gumball
+  DEPLOYMENT_NAME: spring-gumball-deployment
   IMAGE: spring-gumball
 
 jobs:
